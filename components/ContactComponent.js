@@ -8,22 +8,21 @@ class Contact extends Component {
   };
 
   render() {
-    return <ScrollView>
-<Card title="Contact Information" wrapperStyle={{ margin: 20}}>
-    <Text>
-        {`
+    return (
+      <ScrollView>
+        <Card title="Contact Information" wrapperStyle={{ margin: 10 }}>
+          <Text>
+            {`
         1 Nucamp Way
         Seattle, WA 98001
         U.S.A.
         
         Phone:1-206-555-1234
-        Email: campsites@nucamp.co`
-  }
-
-    </Text>
-</Card>
-
-    </ScrollView>;
+        Email: campsites@nucamp.co`}
+          </Text>
+        </Card>
+      </ScrollView>
+    );
   }
 }
 
